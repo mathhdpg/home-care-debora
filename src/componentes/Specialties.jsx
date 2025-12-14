@@ -51,7 +51,7 @@ const Specialties = () => {
     //   title: `Saiba mais sobre ${specialty}`,
     //   description: "🚧 Esta funcionalidade ainda não está implementada—mas não se preocupe! Você pode solicitá-la no próximo prompt! 🚀",
     // });
-    const message = `Olá! Gostaria de saber mais sobre a especialidade de ${specialty} oferecida pela Débora Pietraczck. Poderia me fornecer mais informações?`;
+    const message = `Olá! Gostaria de saber mais sobre a especialidade de ${specialty} oferecida pela Débora Pietraczk. Poderia me fornecer mais informações?`;
     openWhatsApp(message);
   };
 
@@ -84,13 +84,13 @@ const Specialties = () => {
                 viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: index * 0.1 }}
                 whileHover={{ y: -8 }}
-                className="group relative bg-gradient-to-br from-emerald-50 to-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 border border-emerald-100"
+                className="group relative bg-gradient-to-br from-emerald-50 to-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 border border-emerald-100 "
               >
                 <div className={`w-16 h-16 bg-${specialty.color}-100 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300`}>
                   <Icon className={`w-8 h-8 text-${specialty.color}-600`} />
                 </div>
 
-                <h3 className="text-2xl font-bold text-gray-900 mb-4">
+                <h3 className="text-2xl font-bold text-gray-900 mb-4 ">
                   {specialty.title}
                 </h3>
 

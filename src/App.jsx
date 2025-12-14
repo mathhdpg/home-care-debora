@@ -10,8 +10,8 @@ function App() {
   return (
     <>
       <Helmet>
-        <title>Fisioterapia Home Care - Débora Pietraczck | Atendimento Domiciliar</title>
-        <meta name="description" content="Fisioterapia especializada no conforto da sua casa. Osteopatia, Ortopedia e Pediatria com Débora Pietraczck. Transformando vidas através do movimento." />
+        <title>Fisioterapia Home Care - Débora Pietraczk | Atendimento Domiciliar</title>
+        <meta name="description" content="Fisioterapia especializada no conforto da sua casa. Osteopatia, Ortopedia e Pediatria com Débora Pietraczk. Transformando vidas através do movimento." />
       </Helmet>
       <div className="min-h-screen bg-white">
         <Hero />

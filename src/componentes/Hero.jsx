@@ -60,7 +60,7 @@ const Hero = () => {
                 transition={{ delay: 0.3 }}
                 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight"
               >
-                Fisioterapia Home Care – Débora Pietraczck
+                Fisioterapia Home Care – Débora Pietraczk
               </motion.h1>
               
               <motion.p
@@ -131,7 +131,7 @@ const Hero = () => {
               <img 
                 className="w-full h-[600px] object-cover" 
                 alt="Fisioterapeuta realizando atendimento domiciliar"
-               src="https://images.unsplash.com/photo-1675270714610-11a5cadcc7b3" />
+               src="debora-fisio.jpeg" />
               <div className="absolute inset-0 bg-gradient-to-t from-emerald-900/20 to-transparent" />
             </div>
             

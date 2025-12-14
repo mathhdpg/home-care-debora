@@ -83,7 +83,7 @@ const HowItWorks = () => {
                 </div>
 
                 {/* Connector dot */}
-                <div className="hidden lg:block absolute top-24 -translate-y-1/2 left-1/2 -translate-x-1/2 w-4 h-4 bg-emerald-500 rounded-full border-4 border-white shadow-md z-10" />
+                {/* <div className="hidden lg:block absolute top-24 -translate-y-1/2 left-1/2 -translate-x-1/2 w-4 h-4 bg-emerald-500 rounded-full border-4 border-white shadow-md z-10" /> */}
               </motion.div>
             );
           })}

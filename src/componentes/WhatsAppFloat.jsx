@@ -26,7 +26,7 @@ const WhatsAppFloat = () => {
       title: "📱 Redirecionando para o WhatsApp",
       description: "Aguarde, a janela do WhatsApp será aberta em breve!",
     });
-    window.open('https://wa.me/554599584096', '_blank');
+    window.open('https://wa.me/554599584096?&text=Olá%21+Gostaria+de+agendar+um+atendimento+de+fisioterapia+home+care+com+a+Débora+Pietraczk.+Qual+é+a+melhor+forma+de+agendar%3F', '_blank');
   };
 
   return (
@@ -83,16 +83,16 @@ const WhatsAppFloat = () => {
             {/* Icon */}
             <MessageCircle className="w-8 h-8 text-white z-10" />
 
+          </motion.button>
             {/* Notification badge */}
             <motion.div
               initial={{ scale: 0 }}
               animate={{ scale: 1 }}
               transition={{ delay: 0.5, type: 'spring', stiffness: 500, damping: 15 }}
-              className="absolute -top-1 -right-1 w-5 h-5 bg-red-500 rounded-full border-2 border-white flex items-center justify-center"
+              className="absolute -top-1 -right-1 w-5 h-5 bg-red-500 rounded-full border-2 border-white flex items-center justify-center z-10"
             >
               <span className="text-white text-xs font-bold">1</span>
             </motion.div>
-          </motion.button>
 
           {/* Hover text */}
           <motion.div
