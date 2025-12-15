@@ -52,7 +52,7 @@ const Specialties = () => {
     //   description: "🚧 Esta funcionalidade ainda não está implementada—mas não se preocupe! Você pode solicitá-la no próximo prompt! 🚀",
     // });
     const message = `Olá! Gostaria de saber mais sobre a especialidade de ${specialty} oferecida pela Débora Pietraczk. Poderia me fornecer mais informações?`;
-    openWhatsApp(message);
+    openWhatsApp(message, specialty);
   };
 
   return (
