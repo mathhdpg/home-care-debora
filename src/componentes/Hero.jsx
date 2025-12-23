@@ -17,20 +17,20 @@ const Hero = () => {
   };
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-emerald-50 via-white to-green-50">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-cyan-50 via-white to-blue-50">
       {/* Decorative background elements */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <motion.div
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 0.1, scale: 1 }}
           transition={{ duration: 1.5 }}
-          className="absolute -top-24 -right-24 w-96 h-96 bg-emerald-500 rounded-full blur-3xl"
+          className="absolute -top-24 -right-24 w-96 h-96 bg-cyan-500 rounded-full blur-3xl"
         />
         <motion.div
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 0.1, scale: 1 }}
           transition={{ duration: 1.5, delay: 0.3 }}
-          className="absolute -bottom-24 -left-24 w-96 h-96 bg-green-400 rounded-full blur-3xl"
+          className="absolute -bottom-24 -left-24 w-96 h-96 bg-blue-400 rounded-full blur-3xl"
         />
       </div>
 
@@ -47,7 +47,7 @@ const Hero = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.2 }}
-              className="inline-flex items-center gap-2 bg-emerald-100 text-emerald-700 px-4 py-2 rounded-full text-sm font-medium"
+              className="inline-flex items-center gap-2 bg-cyan-100 text-cyan-700 px-4 py-2 rounded-full text-sm font-medium"
             >
               <Heart className="w-4 h-4" />
               <span>Atendimento Personalizado</span>
@@ -82,7 +82,7 @@ const Hero = () => {
               <Button
                 onClick={handleContact}
                 size="lg"
-                className="bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-6 text-lg rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
+                className="bg-cyan-600 hover:bg-cyan-700 text-white px-8 py-6 text-lg rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
               >
                 <Phone className="w-5 h-5 mr-2" />
                 Agendar Consulta
@@ -91,7 +91,7 @@ const Hero = () => {
                 onClick={handleContact}
                 variant="outline"
                 size="lg"
-                className="border-2 border-emerald-600 text-emerald-700 hover:bg-emerald-50 px-8 py-6 text-lg rounded-xl transition-all duration-300 hover:scale-105"
+                className="border-2 border-cyan-600 text-cyan-700 hover:bg-cyan-50 px-8 py-6 text-lg rounded-xl transition-all duration-300 hover:scale-105"
               >
                 Saiba Mais
               </Button> */}
@@ -104,17 +104,17 @@ const Hero = () => {
               className="flex items-center gap-8 pt-4"
             >
               <div className="text-center">
-                <div className="text-3xl font-bold text-emerald-600">5+</div>
+                <div className="text-3xl font-bold text-cyan-600">5+</div>
                 <div className="text-sm text-gray-600">Anos de Experiência</div>
               </div>
               <div className="w-px h-12 bg-gray-300" />
               <div className="text-center">
-                <div className="text-3xl font-bold text-emerald-600">500+</div>
+                <div className="text-3xl font-bold text-cyan-600">500+</div>
                 <div className="text-sm text-gray-600">Pacientes Atendidos</div>
               </div>
               <div className="w-px h-12 bg-gray-300" />
               <div className="text-center">
-                <div className="text-3xl font-bold text-emerald-600">100%</div>
+                <div className="text-3xl font-bold text-cyan-600">100%</div>
                 <div className="text-sm text-gray-600">Satisfação</div>
               </div>
             </motion.div>
@@ -132,7 +132,7 @@ const Hero = () => {
                 className="w-full h-[600px] object-cover" 
                 alt="Fisioterapeuta realizando atendimento domiciliar"
                src="debora-fisio.jpeg" />
-              <div className="absolute inset-0 bg-gradient-to-t from-emerald-900/20 to-transparent" />
+              <div className="absolute inset-0 bg-gradient-to-t from-cyan-900/20 to-transparent" />
             </div>
             
             {/* Floating card */}
@@ -140,11 +140,11 @@ const Hero = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.8 }}
-              className="absolute -bottom-6 -left-6 bg-white p-6 rounded-2xl shadow-xl border border-emerald-100"
+              className="absolute -bottom-6 -left-6 bg-white p-6 rounded-2xl shadow-xl border border-cyan-100"
             >
               <div className="flex items-center gap-4">
-                <div className="w-12 h-12 bg-emerald-100 rounded-full flex items-center justify-center">
-                  <Heart className="w-6 h-6 text-emerald-600" />
+                <div className="w-12 h-12 bg-cyan-100 rounded-full flex items-center justify-center">
+                  <Heart className="w-6 h-6 text-cyan-600" />
                 </div>
                 <div>
                   <div className="font-bold text-gray-900">Atendimento Domiciliar</div>

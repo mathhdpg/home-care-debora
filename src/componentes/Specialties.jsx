@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Bone, Heart, Baby, ArrowRight } from 'lucide-react';
+import { Bone, Heart, Baby, ArrowRight, Brain } from 'lucide-react';
 import { useToast } from './ui/use-toast';
 import { openWhatsApp } from '../lib/utils';
 
@@ -16,9 +16,12 @@ const Specialties = () => {
         'Alívio de dores crônicas',
         'Melhora da mobilidade',
         'Tratamento holístico',
-        'Técnicas manuais avançadas'
+        'Técnicas manuais avançadas',
+        'Dor crônica',
+        'Bruxismo e disfunção de ATM',
+        'Cefaleia e enxaquecas'
       ],
-      color: 'emerald'
+      color: 'cyan'
     },
     {
       icon: Heart,
@@ -28,19 +31,46 @@ const Specialties = () => {
         'Recuperação pós-cirúrgica',
         'Tratamento de lesões',
         'Fortalecimento muscular',
-        'Prevenção de recidivas'
+        'Prevenção de recidivas',
+        'Dor crônica',
+        'Pós operatório'
       ],
-      color: 'green'
+      color: 'blue'
     },
     {
       icon: Baby,
       title: 'Pediatria',
       description: 'Cuidado especializado para bebês e crianças, promovendo desenvolvimento motor saudável.',
       features: [
-        'Desenvolvimento motor',
+        'Estimulação precoce',
         'Tratamento de atrasos',
         'Estimulação precoce',
+        'Acompanhamento individualizado',
+        'Fisioterapia respiratória'
+      ],
+      color: 'teal'
+    },
+     {
+      icon: Bone,
+      title: 'Reabilitação de Joelho',
+      description: 'Tratamento especializado para lesões, dores e disfunções do joelho,focado na recuperação funcional e prevenção de novas lesões.',
+      features: [
+        'Pós operatório do joelho',
+        'Lesões ligamentares e meniscais',
+        'Fortalecimento e estabilidade',
         'Acompanhamento individualizado'
+      ],
+      color: 'teal'
+    },
+    {
+      icon: Brain,
+      title: 'Fisioterapia Neurofuncional',
+      description: 'Atendimento especializado para reabilitação de pacientes com alterações neurológicas, promovendo autonomia e qualidade de vida.',
+      features: [
+        'AVC',
+        'Parkinson',
+        'Lesões neurológicas',
+        'Estímulo motor e funcional'
       ],
       color: 'teal'
     }
@@ -84,7 +114,7 @@ const Specialties = () => {
                 viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: index * 0.1 }}
                 whileHover={{ y: -8 }}
-                className="group relative bg-gradient-to-br from-emerald-50 to-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 border border-emerald-100 "
+                className="group relative bg-gradient-to-br from-cyan-50 to-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 border border-cyan-100 "
               >
                 <div className={`w-16 h-16 bg-${specialty.color}-100 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300`}>
                   <Icon className={`w-8 h-8 text-${specialty.color}-600`} />
@@ -101,7 +131,7 @@ const Specialties = () => {
                 <ul className="space-y-3 mb-6">
                   {specialty.features.map((feature, idx) => (
                     <li key={idx} className="flex items-start gap-2">
-                      <div className="w-1.5 h-1.5 bg-emerald-500 rounded-full mt-2 flex-shrink-0" />
+                      <div className="w-1.5 h-1.5 bg-cyan-500 rounded-full mt-2 flex-shrink-0" />
                       <span className="text-gray-700">{feature}</span>
                     </li>
                   ))}
@@ -109,7 +139,7 @@ const Specialties = () => {
 
                 <button
                   onClick={() => handleLearnMore(specialty.title)}
-                  className="flex items-center gap-2 text-emerald-600 font-semibold group-hover:gap-3 transition-all duration-300"
+                  className="flex items-center gap-2 text-cyan-600 font-semibold group-hover:gap-3 transition-all duration-300"
                 >
                   <span>Saiba mais</span>
                   <ArrowRight className="w-4 h-4" />

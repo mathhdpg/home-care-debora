@@ -19,7 +19,7 @@ const CallToAction = () => {
   return (
     <section className="py-20 bg-white" id="contato">
       <div className="container mx-auto px-4">
-        <div className="bg-gradient-to-br from-emerald-600 via-green-600 to-emerald-700 rounded-3xl overflow-hidden shadow-2xl">
+        <div className="bg-gradient-to-br from-cyan-600 via-blue-600 to-cyan-700 rounded-3xl overflow-hidden shadow-2xl">
           <div className="grid lg:grid-cols-2 gap-0">
             {/* Left side - CTA */}
             <motion.div
@@ -32,14 +32,14 @@ const CallToAction = () => {
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6 leading-tight">
                 Pronto para transformar sua qualidade de vida?
               </h2>
-              <p className="text-xl text-emerald-100 mb-8 leading-relaxed">
+              <p className="text-xl text-cyan-100 mb-8 leading-relaxed">
                 Agende sua primeira consulta e descubra como a fisioterapia domiciliar pode fazer a diferença na sua recuperação.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button
                   onClick={handleContact}
                   size="lg"
-                  className="bg-white text-emerald-600 hover:bg-emerald-50 px-8 py-6 text-lg rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
+                  className="bg-white text-cyan-600 hover:bg-cyan-50 px-8 py-6 text-lg rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
                 >
                   <Phone className="w-5 h-5 mr-2" />
                   Agendar Agora
@@ -65,7 +65,7 @@ const CallToAction = () => {
                     <Phone className="w-6 h-6 text-white" />
                   </div>
                   <div>
-                    <div className="text-emerald-100 text-sm mb-1">Telefone / WhatsApp</div>
+                    <div className="text-cyan-100 text-sm mb-1">Telefone / WhatsApp</div>
                     <div className="text-white font-semibold text-lg">55 45 9958-4096</div>
                   </div>
                 </div>
@@ -75,7 +75,7 @@ const CallToAction = () => {
                     <MapPin className="w-6 h-6 text-white" />
                   </div>
                   <div>
-                    <div className="text-emerald-100 text-sm mb-1">Área de Atendimento</div>
+                    <div className="text-cyan-100 text-sm mb-1">Área de Atendimento</div>
                     <div className="text-white font-semibold text-lg">Cascavel/PR</div>
                   </div>
                 </div>
@@ -85,9 +85,9 @@ const CallToAction = () => {
                     <Clock className="w-6 h-6 text-white" />
                   </div>
                   <div>
-                    <div className="text-emerald-100 text-sm mb-1">Horário de Atendimento</div>
+                    <div className="text-cyan-100 text-sm mb-1">Horário de Atendimento</div>
                     <div className="text-white font-semibold text-lg">Segunda a Sexta: 8h - 18h</div>
-                    <div className="text-emerald-100 text-sm mt-1">Sábado: 8h - 12h</div>
+                    <div className="text-cyan-100 text-sm mt-1">Sábado: 8h - 12h</div>
                   </div>
                 </div>
               </div>
