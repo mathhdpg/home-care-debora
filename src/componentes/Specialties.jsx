@@ -26,14 +26,13 @@ const Specialties = () => {
     {
       icon: Heart,
       title: 'Ortopedia',
-      description: 'Reabilitação especializada para lesões musculoesqueléticas, pós-operatório e condições ortopédicas.',
+      description: 'Reabilitação especializada para lesões musculoesqueléticas e condições ortopédicas.',
       features: [
-        'Recuperação pós-cirúrgica',
+        'Pré e Pós operatório de cirúrgias ortopédicas',
         'Tratamento de lesões',
         'Fortalecimento muscular',
         'Prevenção de recidivas',
         'Dor crônica',
-        'Pós operatório'
       ],
       color: 'blue'
     },
@@ -44,7 +43,6 @@ const Specialties = () => {
       features: [
         'Estimulação precoce',
         'Tratamento de atrasos',
-        'Estimulação precoce',
         'Acompanhamento individualizado',
         'Fisioterapia respiratória'
       ],
@@ -53,9 +51,9 @@ const Specialties = () => {
      {
       icon: Bone,
       title: 'Reabilitação de Joelho',
-      description: 'Tratamento especializado para lesões, dores e disfunções do joelho,focado na recuperação funcional e prevenção de novas lesões.',
+      description: 'Tratamento especializado para lesões, dores e disfunções do joelho, focado na recuperação funcional e prevenção de novas lesões.',
       features: [
-        'Pós operatório do joelho',
+        'Pré e Pós operatório do joelho',
         'Lesões ligamentares e meniscais',
         'Fortalecimento e estabilidade',
         'Acompanhamento individualizado'
